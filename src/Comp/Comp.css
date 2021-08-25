@@ -1,0 +1,63 @@
+.GeneralDiv{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color:crimson ;
+}
+
+.FirstDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.boxDiv{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    
+}
+.boxDiv1{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+.boxDiv1 > h2{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+
+
+.boxDiv2{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.resultdiv{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    width: 100vw;
+
+}
